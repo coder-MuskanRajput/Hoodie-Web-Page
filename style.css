@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.lmain{
+    height: 100%;
+    width: 35%;
+    background-color: black;
+}
+.rmain{
+    height: 90%;
+    width: 65%;
+     /* background-color: aqua; */
+     background-image: url(https://c4.wallpaperflare.com/wallpaper/345/759/738/dark-faceless-hoods-artwork-wallpaper-preview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 10%;
+}
+.one{
+    width: 25%;
+    height: 25%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    width: 25%;
+}
+.three{
+    background-color: white;
+    width: 25%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.lmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding-right:20px ;
+}
+.heading{
+    width: 200px;
+    color: rgb(194, 191, 191);
+    position: absolute;
+    left: 20%;
+    font-size: 50px;
+    top: 10%;
+}
+.second>p{
+    color: rgb(76, 73, 73);
+}
+.one>h4{
+    color: rgb(76, 73, 73);
+}
+.three>button{
+    /* width: 70px; */
+    height: 50px;
+    border: none;
+    background-color: white;
+    
+}
